@@ -1,0 +1,45 @@
+/*estilos genrrales*/
+
+body{
+    background-color:aliceblue ;
+}
+
+/*estilos de header*/
+header{
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li a {
+    color: pink;
+    text-decoration: none;
+    font-size: 18px;
+}
+/*estilos de main*/
+main{
+    text-align: center;
+    color: fuchsia;
+}
+main h2{
+    text-align: center;
+    color: black;
+}
+main p{
+    text-align: center;
+    color: black;
+}
+/*estilos de imagen*/
+.Perfumee{
+    width: 320px ;
+    height: 320px ;
+}
+#ofertas{
+    width: 500px;
+    height: 200px;
+}
+/*estilos de footer*/
+footer{
+    text-align: center;
+    color: deeppink;
+}
