@@ -1,137 +1,147 @@
-
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Header */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .logo {
-    width: 50px;
+  width: 50px;
 }
 
-.bg-rosa{
+.bg-rosa {
   background-color: pink;
 }
-.boton-active:active{
-    background-color: rgb(251, 102, 251);
-}
-.boton-active:hover{
-    background-color: rgb(246, 152, 246);
+
+.boton-active:active {
+  background-color: rgb(251, 102, 251);
 }
 
-main h2{
-    text-align: center;
-    color: black;
+.boton-active:hover {
+  background-color: rgb(246, 152, 246);
 }
-main p{
-    text-align: center;
-    color: black;
+
+main h2 {
+  text-align: center;
+  color: black;
+}
+
+main p {
+  text-align: center;
+  color: black;
 }
 /*estilos de imagen*/
 #banner {
-    position: relative;
-    width: 100%;
-    height: 300px; /* Ajusta según tus necesidades */
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
+  position: relative;
+  width: 100%;
+  height: 300px; /* Ajusta según tus necesidades */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
 }
 
 #banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ajusta la imagen al contenedor */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen al contenedor */
 }
 .Perfumee{
-    width: 320px ;
-    height: 320px ;
+  width: 320px ;
+  height: 320px ;
 }
 #ofertas{
-    width: 500px;
-    height: 200px;
+  width: 500px;
+  height: 200px;
 }
 /* Hero Section */
 .hero {
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 2rem;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 2rem;
 }
 
 .hero h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* Product Grid */
 .products {
-    padding: 1rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
 }
 
 .product-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    text-align: center;
-    transition: transform 0.3s;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s;
 }
 
 .product-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .product-card img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-    border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 4px;
 }
 
 .product-card h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .product-card p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 .product-card button {
-    background-color: rgb(251, 102, 251);
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
+  background-color: rgb(251, 102, 251);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
 }
 
 /* Footer */
 footer {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 1.5rem;
-    }
+  .hero h1 {
+      font-size: 1.5rem;
+  }
 
-    .grid-container {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
+  .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
+
+
+/*# sourceMappingURL=main.css.map */
