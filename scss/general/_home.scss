@@ -1,0 +1,28 @@
+@import "../utilidades/variables";
+/*Header */
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    width: 50px;
+}
+
+.bg-rosa{
+  background-color: $color-principal;
+}
+.boton-active:active{
+    background-color: rgb(251, 102, 251);
+}
+.boton-active:hover{
+    background-color: rgb(246, 152, 246);
+}
+
+main h2{
+    text-align: center;
+    color: $color-tipografia;
+}
+main p{
+    text-align: center;
+    color: $color-tipografia;
+}
